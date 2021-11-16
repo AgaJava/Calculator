@@ -20,6 +20,9 @@ public class CalculatorTest {
         Calculator division = new Calculator();
         division.div(firstNumber,secondNumber);
 
+        Calculator modulo = new Calculator();
+        modulo.mod(firstNumber,secondNumber);
+
        /* int addition = firstNumber + secondNumber;
         int substraction = firstNumber - secondNumber;
         int multiplication = firstNumber * secondNumber;

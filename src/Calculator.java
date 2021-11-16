@@ -12,6 +12,10 @@ public class Calculator {
         System.out.println("Iloczyn to : " + (firstNumber * secondNumber));
     }
 
+    public void mod(float firstNumber, float secondNumber) {
+        System.out.println("Procent to : " + (firstNumber%secondNumber));
+    }
+
     public void div(float firstNumber, float secondNumber) {
         if (secondNumber > 0) {
             System.out.println("Iloraz to : " + (firstNumber / secondNumber));
